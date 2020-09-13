@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+/* nav section */
+
+h5{
+    color: rgb(222, 228, 233);
+}
+h5:hover{
+    color: darkorange;
+}
+#mainNav ul li a:hover{
+    
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+/* header section*/
+.masthead {
+    padding-top: calc(6rem + 100px);
+    padding-bottom: 6rem;
+}
+.bg-primary{
+    background-color: rgb(247, 113, 184) !important;
+}
+.text-center{
+    text-align: center;
+}
+.decoration{
+    color: rgb(51, 33, 33);
+    font-size: 5rem;
+    text-shadow: 7px 7px 7px goldenrod;
+}
+#pic{
+    height: 200px;
+    width: 200px;
+}
+.divider-custom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#text-green{
+    color: rgb(14, 61, 30);
+}
+
+/*portfolio section */
+.page-section{
+    padding: 6rem 0;
+}
+.text-size{
+    font-size: 2.25rem;
+}
+.portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+.hovering1 .hovering2 .hovering3 {
+    transition: all 1s ease-in-out;
+}
+.hovering1:hover{
+    opacity: 0.4;
+    transform: rotate(-2deg);
+}
+.hovering2:hover{
+    opacity: 0.4;
+    transform: rotate(2deg);
+}
+.hovering3:hover{
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+@media screen and (min-device-width: 770px) and (max-device-width: 992px) { 
+    .hovering4 .hovering5{
+        transition: all 1s ease-in-out;
+    }
+    .hovering4:hover{
+        opacity: .4;
+        transform: scale(1.1);
+    }
+    .hovering5:hover{
+        opacity: .4;
+        transform: rotate(2deg);
+    }
+}
+
+/* About Section */
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.cur{
+    font-family: cursive;
+}
+
+/* contact section */
+.shadows{
+    text-shadow: 2px 2px 3px blue;
+}
+.floating-label-form-group input, .floating-label-form-group textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1rem);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.125rem solid #ced4da;
+    border-radius: 0.5rem;
+   
+}
+.floating-label-form-group {
+    position: relative;
+    border-bottom: 2px solid #e9ecef;
+}
+
+
+/* footer */
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #1abc9c;
+    text-decoration: none;
+    background-color: transparent;
+}
+/* copyright */
+.copyright {
+    background-color: #1a252f;
+}
+
